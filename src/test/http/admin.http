@@ -1,0 +1,4 @@
+###
+GET http://localhost:8080/api/admin/users/4
+role: 10
+uid: 1

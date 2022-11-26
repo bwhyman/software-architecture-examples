@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://114.116.203.165:3306/2046204600
+    username: 2046204600
+    password: 2046204600
+  sql:
+    init:
+      mode: always # 每次启动均执行数据库初始化脚本
+
+logging:
+  level:
+    sql: debug
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'

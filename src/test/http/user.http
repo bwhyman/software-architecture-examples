@@ -1,0 +1,3 @@
+GET http://localhost:8080/api/user/addresses
+role: 2
+uid: 2
