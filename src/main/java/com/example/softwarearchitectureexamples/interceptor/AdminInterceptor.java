@@ -1,6 +1,6 @@
 package com.example.softwarearchitectureexamples.interceptor;
 
-import com.example.softwarearchitectureexamples.dto.User;
+import com.example.softwarearchitectureexamples.dox.User;
 import com.example.softwarearchitectureexamples.exception.XException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

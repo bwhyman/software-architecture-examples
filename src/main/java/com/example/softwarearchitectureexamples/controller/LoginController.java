@@ -1,9 +1,10 @@
 package com.example.softwarearchitectureexamples.controller;
 
-import com.example.softwarearchitectureexamples.dto.User;
+import com.example.softwarearchitectureexamples.dox.User;
 import com.example.softwarearchitectureexamples.exception.XException;
 import com.example.softwarearchitectureexamples.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,15 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/")
 @Slf4j
 public class LoginController {
     private final UserService userService;
-
-    public LoginController(UserService userService) {
-        this.userService = userService;
-    }
 
     @PostMapping("login")
     public Map<String, Object> login(@RequestBody User u, HttpServletResponse response) {

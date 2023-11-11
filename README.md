@@ -13,10 +13,14 @@
 ## Development Environments & Technologies
 Idea Ultimate  
 OpenJDK ^17  
-springboot ^3.0.0  
+springboot ^3.1.0  
 springmvc  
 spring-data-jdbc  
 MySQL ^8，基于云服务器搭建远程MySQL8数据库服务器供学生学习测试使用
+
+## Update
+### 2023.11.11
+组件使用Lombok @RequiredArgsConstructor注解自动生成依赖组件的有参构造函数。  
 
 ## 实验一 组件化开发实验
 ### 实验目的  
@@ -49,8 +53,8 @@ MySQL ^8，基于云服务器搭建远程MySQL8数据库服务器供学生学习
 * 创建springboot工程项目；添加相应项目依赖；整理项目开发源码结构
 * 编写SQL脚本，基于需求创建对应数据表及合适数据类型字段  
 * 声明springboot数据库配置以及日志配置
-* 声明创建对应数据表的DTO类
-* 声明创建操作DTO数据的基础持久层组件
+* 声明创建对应数据表的DO类
+* 声明创建操作DO数据的基础持久层组件
 * 创建持久层组件测试用例，注入组件实现组件功能测试验证
 * 声明创建业务逻辑层组件，基于依赖注入调用持久层组件实现业务逻辑操作
 * 创建业务逻辑组件测试用例，注入组件实现组件功能测试验证

@@ -1,7 +1,7 @@
 package com.example.softwarearchitectureexamples.repository;
 
-import com.example.softwarearchitectureexamples.dto.Address;
-import com.example.softwarearchitectureexamples.dto.User;
+import com.example.softwarearchitectureexamples.dox.Address;
+import com.example.softwarearchitectureexamples.dox.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

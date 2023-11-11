@@ -1,4 +1,4 @@
-package com.example.softwarearchitectureexamples.dto;
+package com.example.softwarearchitectureexamples.dox;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

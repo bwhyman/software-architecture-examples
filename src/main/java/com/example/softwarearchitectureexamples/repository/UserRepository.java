@@ -1,6 +1,6 @@
 package com.example.softwarearchitectureexamples.repository;
 
-import com.example.softwarearchitectureexamples.dto.User;
+import com.example.softwarearchitectureexamples.dox.User;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
