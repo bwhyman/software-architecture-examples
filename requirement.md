@@ -6,8 +6,7 @@ https://mooc1.chaoxing.com/nodedetailcontroller/visitnodedetail?courseId=2173391
 https://mooc1.chaoxing.com/nodedetailcontroller/visitnodedetail?courseId=91374545&knowledgeId=384340320
 
 ### activate idea
-课程基于集成了openjdk17的idea Ultimate最新版学习(使用的springboot3.0最低支持java17，不再支持Java11)  
-可以保留idea 2021环境及工程项目，用于维护基于java11的项目  
+课程基于集成了openjdk17+的idea Ultimate最新版学习(使用的springboot3.0最低支持java17，不再支持Java11)  
 已经申请免费idea账号的同学可直接使用最新版idea，无需重复注册激活  
 
 强烈建议使用学校邮箱申请免费Ultimate版，忘了邮箱密码的可尝试找回  
