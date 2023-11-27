@@ -13,10 +13,13 @@
 ## Development Environments & Technologies
 Idea Ultimate  
 OpenJDK ^17  
-springboot ^3.1.0  
+springboot ^3.2.0  
 springmvc  
 spring-data-jdbc  
 MySQL ^8，基于云服务器搭建远程MySQL8数据库服务器供学生学习测试使用
+
+## Online Tutorials
+[实验讲解视频](https://mooc1.chaoxing.com/mooc-ans/nodedetailcontroller/visitnodedetail?courseId=91374637&knowledgeId=800996180)
 
 ## Update
 ### 2023.11.11
