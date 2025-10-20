@@ -12,8 +12,8 @@
 
 ## Development Environments & Technologies
 Idea Ultimate  
-OpenJDK ^17  
-springboot ^3.2.0  
+OpenJDK ^21  
+springboot ^3.5.5  
 springmvc  
 spring-data-jdbc  
 MySQL ^8，基于云服务器搭建远程MySQL8数据库服务器供学生学习测试使用
@@ -22,6 +22,11 @@ MySQL ^8，基于云服务器搭建远程MySQL8数据库服务器供学生学习
 [实验讲解视频](https://mooc1.chaoxing.com/mooc-ans/nodedetailcontroller/visitnodedetail?courseId=91374637&knowledgeId=800996180)
 
 ## Update
+
+### 2025.10.20
+
+升级依赖。  
+
 ### 2023.11.11
 组件使用Lombok @RequiredArgsConstructor注解自动生成依赖组件的有参构造函数。  
 
